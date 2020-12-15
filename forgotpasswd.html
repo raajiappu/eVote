@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+    <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Forgot password</title>
+        <link rel="stylesheet" href="blockChainStyle.css">
+        <script src="essentialScript.js">
+        </script>
+    </head>
+    <body onload="essentials()">
+        
+        <header id="header"> </header>
+        <div class="article">
+            <h2>Forgot Password </h2>
+            <form action="" autocomplete="off" method="post">
+                <table>
+                    <tr>
+                        <td><label for="email">Email<sup>*</sup>:</label></td>
+                        <td>
+                            <input type="email" id="email" name="email" placeholder="xxx@xxx.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required> <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="mnumber">Matriculation Number<sup>*</sup>:</label></td>
+                        <td><input type="text" id="mnumber" name="matriculationnumber" required><br />      </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                    <tr>
+                        <td>Your Password is</td>
+                        <td>
+                            <span id="remindPasswd">display here !!!</span>
+                        </td>
+                    </tr>
+
+
+                </table>
+
+            </form>
+
+
+        </div>
+
+        <footer id="footer">
+        </footer>
+    </body>
+</html>
+   
