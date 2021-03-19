@@ -1,0 +1,19 @@
+for both organisations !!
+source organiser.sh/ source verifier.sh
+
+peer lifecycle chaincode package bt.tar.gz --lang node --path ./contract --label bt_0
+peer lifecycle chaincode install bt.tar.gz 
+peer lifecycle chaincode queryinstalled
+export PACKAGE_ID=bt_0:a4a046d8482bf388c2cfe58301af6c218b6aa12a02fc565117c28a6090c1238d
+
+peer lifecycle chaincode approveformyorg --orderer localhost:7050 --ordererTLSHostnameOverride orderer.example.com --channelID mychannel --name ballotcontract -v 0 --package-id $PACKAGE_ID --sequence 1 --tls --cafile $ORDERER_CA
+
+peer lifecycle chaincode approveformyorg --orderer localhost:7050 --ordererTLSHostnameOverride orderer.example.com --channelID mychannel --name ballotcontract -v 0 --package-id $PACKAGE_ID --sequence 1 --tls --cafile $ORDERER_CA
+
+commit :* Any organisation can commit chain code to channel
+
+ peer lifecycle chaincode commit -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --peerAddresses localhost:7051 --tlsRootCertFiles ${PEER0_ORG1_CA} --peerAddresses localhost:9051 --tlsRootCertFiles ${PEER0_ORG2_CA} --channelID mychannel --name ballotcontract -v 0 --sequence 1 --tls --cafile $ORDERER_CA --waitForEvent
+
+Test:
+docker ps
+
