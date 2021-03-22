@@ -1,0 +1,221 @@
+
+Notifications
+
+    All
+
+    You have been logged in.
+    a few seconds ago|
+
+election
+{ }
+
+
+
+id"5c6a97e58f9d007c43cee1a973001d8e"
+
+{
+ "id": "5c6a97e58f9d007c43cee1a973001d8e",
+ "key": "5c6a97e58f9d007c43cee1a973001d8e",
+ "value": {
+  "rev": "2-ed1e95b9d29d2357660566045fc31f8d"
+ },
+ "doc": {
+  "_id": "5c6a97e58f9d007c43cee1a973001d8e",
+  "_rev": "2-ed1e95b9d29d2357660566045fc31f8d",
+  "type": "student",
+  "fname": "Sam",
+  "lname": "M",
+  "branch": "fb-2",
+  "course": "INF",
+  "number": "1345456"
+ }
+}
+
+id"5c6a97e58f9d007c43cee1a973002c8b"
+
+{
+ "id": "5c6a97e58f9d007c43cee1a973002c8b",
+ "key": "5c6a97e58f9d007c43cee1a973002c8b",
+ "value": {
+  "rev": "2-9b1bcf7299a8e4b8ab6d16b7cf0c7a7b"
+ },
+ "doc": {
+  "_id": "5c6a97e58f9d007c43cee1a973002c8b",
+  "_rev": "2-9b1bcf7299a8e4b8ab6d16b7cf0c7a7b",
+  "type": "student",
+  "fname": "Shyam",
+  "lname": "M",
+  "branch": "fb-3",
+  "course": "INF",
+  "number": "1345455"
+ }
+}
+
+id"5c6a97e58f9d007c43cee1a973004242"
+
+{
+ "id": "5c6a97e58f9d007c43cee1a973004242",
+ "key": "5c6a97e58f9d007c43cee1a973004242",
+ "value": {
+  "rev": "9-c0c05de1efd989ddd6ab064553cad497"
+ },
+ "doc": {
+  "_id": "5c6a97e58f9d007c43cee1a973004242",
+  "_rev": "9-c0c05de1efd989ddd6ab064553cad497",
+  "election_name": "Student",
+  "election_date": "2021-03-23",
+  "type": "election",
+  "candidate_1": {
+   "user_name": "Ram",
+   "party": "Quantum",
+   "branch": "fb-3"
+  },
+  "candidate_2": {
+   "user_name": "Sam",
+   "party": "League",
+   "branch": "fb-3"
+  },
+  "candidate_3": {
+   "user_name": "Shyam",
+   "party": "Bears",
+   "branch": "fb-1"
+  }
+ }
+}
+
+id"5c6a97e58f9d007c43cee1a973018798"
+
+{
+ "id": "5c6a97e58f9d007c43cee1a973018798",
+ "key": "5c6a97e58f9d007c43cee1a973018798",
+ "value": {
+  "rev": "1-736f41bdca5a9446dcbc17f2225176dd"
+ },
+ "doc": {
+  "_id": "5c6a97e58f9d007c43cee1a973018798",
+  "_rev": "1-736f41bdca5a9446dcbc17f2225176dd",
+  "type": "student",
+  "fname": "Ram",
+  "lname": "M",
+  "branch": "fb-1",
+  "course": "LAW",
+  "number": "1345485"
+ }
+}
+
+id"5c6a97e58f9d007c43cee1a973019d9b"
+
+{
+ "id": "5c6a97e58f9d007c43cee1a973019d9b",
+ "key": "5c6a97e58f9d007c43cee1a973019d9b",
+ "value": {
+  "rev": "3-28bbff427090ccf6a27367a01b73d444"
+ },
+ "doc": {
+  "_id": "5c6a97e58f9d007c43cee1a973019d9b",
+  "_rev": "3-28bbff427090ccf6a27367a01b73d444",
+  "election_name": "every week",
+  "election_date": "2021-03-27",
+  "type": "election",
+  "candidate_1": {
+   "user_name": "Sam",
+   "party": "Coders",
+   "branch": "fb-2"
+  },
+  "candidate_2": {
+   "user_name": "Shyam",
+   "party": "Bears",
+   "branch": "fb-1"
+  },
+  "candidate_3": {
+   "user_name": "Ram",
+   "party": "Quantum",
+   "branch": "fb-2"
+  }
+ }
+}
+
+id"5c6a97e58f9d007c43cee1a973023e38"
+
+{
+ "id": "5c6a97e58f9d007c43cee1a973023e38",
+ "key": "5c6a97e58f9d007c43cee1a973023e38",
+ "value": {
+  "rev": "1-002ea149af7869cc0f8ca12ca09c90ba"
+ },
+ "doc": {
+  "_id": "5c6a97e58f9d007c43cee1a973023e38",
+  "_rev": "1-002ea149af7869cc0f8ca12ca09c90ba",
+  "type": "election",
+  "election_name": "royal",
+  "election_date": "2021-03-18",
+  "candidate_1": {
+   "user_name": "Sam",
+   "party": "Coders",
+   "branch": "fb-2"
+  },
+  "candidate_2": {
+   "user_name": "Shyam",
+   "party": "Justice",
+   "branch": "fb-1"
+  },
+  "candidate_3": {
+   "user_name": "Ram",
+   "party": "Quantum",
+   "branch": "fb-2"
+  }
+ }
+}
+
+id"5c6a97e58f9d007c43cee1a9730246b4"
+
+{
+ "id": "5c6a97e58f9d007c43cee1a9730246b4",
+ "key": "5c6a97e58f9d007c43cee1a9730246b4",
+ "value": {
+  "rev": "1-471502527bcb4d76f8b1ae1188fed6a5"
+ },
+ "doc": {
+  "_id": "5c6a97e58f9d007c43cee1a9730246b4",
+  "_rev": "1-471502527bcb4d76f8b1ae1188fed6a5",
+  "type": "election",
+  "election_name": "123",
+  "election_date": "2021-03-30",
+  "candidate_1": {
+   "user_name": "Sam",
+   "party": "Bears",
+   "branch": "fb-1"
+  },
+  "candidate_2": {
+   "user_name": "Ram",
+   "party": "Coders",
+   "branch": "fb-2"
+  },
+  "candidate_3": {
+   "user_name": "Shyam",
+   "party": "Quantum",
+   "branch": "fb-2"
+  }
+ }
+}
+
+id"_design/all_elections"
+
+{
+ "id": "_design/all_elections",
+ "key": "_design/all_elections",
+ "value": {
+  "rev": "4-a7ce3fee4fb7b97d08ca08c28b9a1f1a"
+ },
+ "doc": {
+  "_id": "_design/all_elections",
+  "_rev": "4-a7ce3fee4fb7b97d08ca08c28b9a1f1a",
+  "views": {
+   "all": {
+    "map": "function (doc) {\n  if(doc.type === \"election\"){\n  emit(doc._id, {type:doc.type,election_name:doc.election_name,election_date:doc.election_date,candidate_1:doc.candidate_1,candidate_2:doc.candidate_2,candidate_3:doc.candidate_3,rev:doc._rev});\n}\n  if(doc.type ==='student'){\n    emit(doc._id,{type:doc.type,fname:doc.fname,branch:doc.branch,rev:doc._rev});\n  }\n  \n  \n}\n"
+   }
+  },
+  "language": "javascript"
+ }
+}
+
